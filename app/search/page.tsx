@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function SearchPage(){return <main className="utility"><Link href="/" className="brand">← LUMÉRA</Link><section className="glass auth"><p className="eyebrow">PRODUCT SEARCH</p><h1>Find your ritual.</h1><form><label>Search products<input type="search" placeholder="Try “Glow Serum”"/></label><button>Search</button></form><div className="search-result"><b>Glow Serum</b><span>Brighten. Hydrate. Renew.</span><Link href="/#shop">View product →</Link></div></section></main>}

@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Confirmation(){return <main className="utility"><section className="glass auth confirmation"><div className="confirm-icon">✓</div><p className="eyebrow">TEST FLOW COMPLETE</p><h1>Your glow is waiting.</h1><p>This demonstration did not create a real order or process a payment. Connect a payment provider and order service before launch.</p><Link className="submit-link" href="/">Return home</Link></section></main>}
